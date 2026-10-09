@@ -1,0 +1,8 @@
+services:
+  api:
+    build: .
+    image: demo-api:1.1.1
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: "3000"
